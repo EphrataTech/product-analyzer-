@@ -6,8 +6,8 @@ using namespace std;
 
 int main() {
 
-    //The following code is used to analyse product sales amd inventory for a store
-    //the complied language is c++
+    cout<<"This program was made inorder to analyse product sales and inventory for a store" << endl;
+    cout<<"the complied language is c++" << endl;
 
     string productName;
     int productCategory;
