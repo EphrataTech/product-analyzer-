@@ -17,8 +17,6 @@ int main() {
     int soldItems;
     const double constTaxRate = 0.20;
 
-
-
     
 
     cout << "Enter the product name you want to store: ";
@@ -45,17 +43,11 @@ int main() {
     string inventoryStatus;
     
     if (newInventory < 10 ){
-
         inventoryStatus = "Low inventory";
     }
     else{
         inventoryStatus = "Sufficient inventory";
     }
-
-    
-    
-
-
 
 
 cout<< "the tax rate is " <<  taxRate << endl;
@@ -84,8 +76,6 @@ switch (productCategory)
     }
 
 
-
-
 cout<< "initial inventory quantity: " << initialInventoryQuantity<< endl;
 cout<< "product price: " << productPrice << endl;
 cout<< "numbers of sold items: " << soldItems << endl;
@@ -94,16 +84,11 @@ cout<< "numbers of sold items: " << soldItems << endl;
 for(int i = 1; i <= soldItems; i++){
     cout<< "sold item " << i << ":" << "price= " << productPrice << endl;
 
-
 }
 
 cout<< "total sales amount: " << totalSalesAmount <<endl;
-
 cout<< "new inventory amount: " << newInventory <<endl;
-
 cout<< "the inventory status: " << inventoryStatus <<endl;
-
-
 
 return 0;
 
